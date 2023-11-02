@@ -1,0 +1,36 @@
+/* Card */
+.rs-card{
+    border-radius: var(--border-radius-s);
+    transition: .75s;
+
+    &:hover{
+        transform: translate(0, -4px);
+        transition: .75s;
+        cursor: pointer;
+    }
+
+    &__image{
+        border-radius: var(--border-radius-s);
+    }
+    &__title{
+        font-size: var(--text-l);
+        margin-top: var(--margin-xs);
+}
+    &__icon{
+    
+}
+    &__text{
+        font-size: var(--text-m);
+}
+    &__tag{
+    font-size: var(--text-xs);
+    padding:0.2rem 0.6rem;
+    background: var(--color-secondary);
+    border-radius: var(--border-radius-l);
+}
+}
+
+/* Media Queries */
+@media only screen and (max-width:991px) {
+
+}

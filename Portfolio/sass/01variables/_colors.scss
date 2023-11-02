@@ -1,0 +1,96 @@
+/* Color text elements */
+$var-color-heading:#0F1221;
+$var-color-heading-light:#5E7096;
+$var-color-text:#404F5F;
+$var-color-text-light:#60788F;
+
+$color-heading:var(--color-heading);
+$color-heading-light:var(--color-heading-light);
+$color-text:var(--color-text);
+$color-text-light:var(--color-text-light);
+
+/* Color generel */
+$var-color-grey:#BCC7D2;
+$var-color-white:white;
+$var-color-black:black;
+$var-color-danger:#F40932;
+$var-color-info:#ECF147;
+$var-color-warning:#F40932;
+$var-color-transparent:transparent;
+$var-color-border:#E5E7EB;
+$var-color-background:#fff;
+
+$-color-grey:var(--color-grey);
+$-color-white:var(--color-white);
+$-color-black:var(--color-black);
+$-color-danger:var(--color-danger);
+$-color-info:var(--color-info);
+$-color-warning:var(--color-warning);
+$-color-transparent:var(--color-transparent);
+$-color-border:var(--color-border);
+$-color-background:var(--color-background);
+
+/* Color primary variations */    
+$var-color-primary:#4657EA;
+$var-color-primary-light:#F5F5FF;
+$var-color-primary-ultralight:#E4E6FE;
+$var-color-primary-dark:#192CDC;
+$var-color-primary-ultradark:#1321A5;
+
+$-color-primary:var(--color-primary);
+$-color-primary-light:var(--color-primary-light);
+$-color-primary-ultralight:var(--color-primary-ultralight);
+$-color-primary-dark:var(--color-primary-dark);
+$-color-primary-ultradark:var(--color-primary-ultradark);
+
+/* Color secondary variations */    
+$var-color-secondary:#E0E1EB;
+$var-color-secondary-light:#E6E7EF;
+$var-color-secondary-ultralight:#ECEDF3;
+$var-color-secondary-dark:#A8ABC7;
+$var-color-secondary-ultradark:#7075A3;
+
+$-color-secondary:var(--color-secondary);
+$-color-secondary-light:var(--color-secondary-light);
+$-color-secondary-ultralight:var(--color-secondary-ultralight);
+$-color-secondary-dark:var(--color-secondary-dark);
+$-color-secondary-ultradark:var(--color-secondary-ultradark);
+
+/* Color grey variations */  
+$var-color-grey:#BCC7D2;
+$var-color-grey-light:#D7DEE4;
+$color-grey-dark:#60788F;
+
+$-color-grey:var(--color-grey);
+$-color-grey-light:var(--color-grey-light);
+$-color-grey-dark:var(--color-grey-dark);
+
+/* Root element */ 
+:root{
+    --color-heading:#{$var-color-heading};
+    --color-heading-light:#{$var-color-heading-light};
+    --color-text:#{$var-color-text};
+    --color-text-light:#{$var-color-text-light};
+    --color-grey:#{$var-color-grey};        
+    --color-white:#{$var-color-white};
+    --color-black:#{$var-color-black};
+    --color-danger:#{$var-color-danger};
+    --color-info:#{$var-color-info};
+    --color-warning:#{$var-color-warning};
+    --color-transparent:#{$var-color-transparent};
+    --color-border:#{$var-color-border};
+    --color-background:#{$var-color-background};
+    --color-primary:#{$var-color-primary};
+    --color-primary-light:#{$var-color-primary-light};
+    --color-primary-ultralight:#{$var-color-primary-ultralight};
+    --color-primary-dark:#{$var-color-primary-dark};
+    --color-primary-ultradark:#{$var-color-primary-ultradark};
+    --color-secondary:#{$var-color-secondary};
+    --color-secondary-light:#{$var-color-secondary-light};
+    --color-secondary-ultralight:#{$var-color-secondary-ultralight};
+    --color-secondary-dark:#{$var-color-secondary-dark};
+    --color-secondary-ultradark:#{$var-color-secondary-ultradark};
+    --color-grey:#{$var-color-grey};
+    --color-grey-light:#{$var-color-grey-light};
+    --color-grey-dark:#{$var-color-grey};
+}
