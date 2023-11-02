@@ -1,0 +1,56 @@
+/* Fonts */ 
+$var-font-family-primary:'Urbanist', sans-serif;
+$var-font-family-secondary:'Urbanist', sans-serif;
+
+$font-family-primary:var(--font-family-primary);
+$font-family-secondary:var(--font-family-secondary);
+
+/* Fluid text */ 
+$var-text-xs: clamp(0.69rem, 0.01vw + 0.69rem, 0.69rem);
+$var-text-s: clamp(0.78rem, 0.09vw + 0.76rem, 0.83rem);
+$var-text-m: clamp(0.88rem, 0.21vw + 0.83rem, 1rem);
+$var-text-l: clamp(0.98rem, 0.36vw + 0.91rem, 1.2rem);
+$var-text-xl: clamp(1.11rem, 0.55vw + 1rem, 1.44rem);
+
+$text-xs: var(--text-xs);
+$text-s: var(--text-s);
+$text-m: var(--text-m);
+$text-l: var(--text-l);
+$text-xl: var(--text-xl);
+
+
+/* Fluid heading */ 
+$var-h6: clamp(0.8rem, -0.04vw + 0.81rem, 0.77rem);
+$var-h5: clamp(1rem, 0.05vw + 0.99rem, 1.03rem);
+$var-h4: clamp(1.25rem, 0.21vw + 1.21rem, 1.38rem);
+$var-h3: clamp(1.56rem, 0.45vw + 1.47rem, 1.83rem);
+$var-h2: clamp(1.95rem, 0.82vw + 1.79rem, 2.44rem);
+$var-h1: clamp(2.44rem, 1.36vw + 2.17rem, 3.66rem);
+$var-h-title: clamp(3rem, 1.7219rem + 4.2781vw, 6rem);
+
+$h6: var(--h6);
+$h5: var(--h5);
+$h4: var(--h4);
+$h3: var(--h3);
+$h2: var(--h2);
+$h1: var(--h1);
+$h-title: var(--h-title);
+
+:root{
+    --font-family-primary:#{$var-font-family-primary};
+    --font-family-secondary:#{$var-font-family-secondary};
+    --text-xs:#{$var-text-xs};
+    --text-s:#{$var-text-s};
+    --text-m:#{$var-text-m};
+    --text-l:#{$var-text-l};
+    --text-xl:#{$var-text-xl};
+    --h6:#{$var-h6};
+    --h5:#{$var-h5};
+    --h4:#{$var-h4};
+    --h3:#{$var-h3};
+    --h2:#{$var-h2};
+    --h1:#{$var-h1};
+    --h-title:#{$var-h-title};
+
+}
+
